@@ -8,6 +8,7 @@ import Header from "../header/header";
 import MostProduct from "../mostProductArea/mostproduct";
 import Products from "../products/products";
 import TopInteresting from "../topInteresting/topInteresting";
+ import ViewDescription from "../view dwscription/description";
 
 function Home(){
    return<>
@@ -20,8 +21,9 @@ function Home(){
     <Products/>
     <Banner/>
     <MostProduct/>
+      <ViewDescription/>
     <Footer/>
-  
+   
    </>
 }
 
