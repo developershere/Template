@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Header(){
 
     return <>
@@ -116,18 +118,8 @@ function Header(){
                         <div className="menu-area">
                             <nav>
                                 <ul>
-                                    <li className="active"><a href="index.html">Home<i className="fa fa-angle-down"></i></a>
-                                        <div className="sub-menu">
-                                            <ul>
-                                                <li><a href="index.html">Home-1</a></li>
-                                                <li><a href="index-2.html">Home-2</a></li>
-                                                <li><a href="index-3.html">Home-3</a></li>
-                                                <li><a href="index-4.html">Home-4</a></li>
-                                                <li><a href="index-5.html">Home-5</a></li>
-                                                <li><a href="index-6.html">Home-6</a></li>
-                                                <li><a href="index-7.html">Home-7</a></li>
-                                            </ul>
-                                        </div>
+                                    <li className="active"><Link to='/'>Home<i className="fa fa-angle-down"></i></Link>
+                                       
                                     </li>
                                     <li><a href="product-details.html">Book<i className="fa fa-angle-down"></i></a>
                                         <div className="mega-menu">
@@ -222,11 +214,11 @@ function Header(){
                                             </span>
                                         </div>
                                     </li>
-                                    <li><a href="#">blog<i className="fa fa-angle-down"></i></a>
+                                    <li><a href="#">MyAccount<i className="fa fa-angle-down"></i></a>
                                         <div className="sub-menu sub-menu-2">
                                             <ul>
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="blog-details.html">blog-details</a></li>
+                                                <li><Link to='signup'>SignUp</Link></li>
+                                                <li><Link to='signin'>SignIn</Link></li>
                                             </ul>
                                         </div>
                                     </li>
