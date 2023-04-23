@@ -6691,7 +6691,7 @@ nav.menu .cr-dropdown ul {
 }
 
 .coupon-accordion h3 {
-    background-color: #f7f6f7;
+    /* background-color: #f7f6f7; */
     border-top: 3px solid #f07c29;
     color: #333;
     font-family: "Rufina", serif;
@@ -6706,7 +6706,6 @@ nav.menu .cr-dropdown ul {
 
 .coupon-accordion h3::before {
     color: #1e85be;
-    content: "ï„”";
     display: inline-block;
     font-family: fontawesome;
     left: 1.5em;
@@ -7752,6 +7751,11 @@ p.lost-password a:hover {
     height: 100%;
 }
 
-.btn{
+.btn1{
     background-color:#fd7e14;
+}
+.btn1:hover{
+   
+    background-color: #333 ;
+    color:white;
 }

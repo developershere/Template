@@ -6,18 +6,17 @@ import Footer from "../footer/footer";
 
 import Header from "../header/header";
 import MostProduct from "../mostProductArea/mostproduct";
-import Products from "../products/products";
+import Shop from "../shop/shop";
 import TopInteresting from "../topInteresting/topInteresting";
 
 function Home(){
    return<>
     <Header/>
     <Service/>
-    {/* <div id="test">jjuu</div> */}
     <Carousal />
     <TopInteresting/>
     <BestAuthor/>
-    <Products/>
+    <Shop/>
     <Banner/>
     <MostProduct/>
     <Footer/>

@@ -30,7 +30,7 @@ function Footer(){
                             <div className="col-lg-4 col-md-4 col-12 ">
                                 <div className="single-footer br-2 xs-mb ">
                                     <div className="footer-title mb-20 ">
-                                        <h3>Products</h3>
+                                        <h3>Books</h3>
                                     </div>
                                     <div className="footer-mid-menu ">
                                         <ul>
@@ -77,14 +77,14 @@ function Footer(){
                     <div className="col-lg-4 col-md-12 ">
                         <div className="single-footer mrg-sm ">
                             <div className="footer-title mb-20 ">
-                                <h3>STORE INFORMATION</h3>
+                                <h3>Infobeans Foundation</h3>
                             </div>
                             <div className="footer-contact ">
                                 <p className="adress ">
-                                    <span>My Company</span> Your address goes here.
+                                    <span>My Company</span> InfoBeans Foundation
                                 </p>
                                 <p><span>Call us now:</span> 0123456789</p>
-                                <p><span>Email:</span> demo@example.com</p>
+                                <p><span>Email:</span>TechDevelopers.com</p>
                             </div>
                         </div>
                     </div>
@@ -97,7 +97,7 @@ function Footer(){
                 <div className="row bt-2 ">
                     <div className="col-lg-6 col-md-6 col-12 ">
                         <div className="copy-right-area ">
-                            <p>&copy; 2022 <strong> Koparion </strong> Mede with ❤️ by <a href="https://hasthemes.com/ " target="_blank "><strong>HasThemes</strong></a></p>
+                            <p>&copy; 2022 <strong> TechDevelopers </strong> Mede with ❤️ by <a href="https://hasthemes.com/ " target="_blank "><strong>Tech Developers</strong></a></p>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 ">

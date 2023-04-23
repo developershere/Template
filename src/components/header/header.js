@@ -37,7 +37,7 @@ function Header(){
                     <div className="col-lg-6 col-md-6 col-12">
                         <div className="account-area text-end">
                             <ul>
-                                <li><a href="my-account.html">My Account</a></li>
+                                <li><Link to='/myaccount'>My Account</Link></li>
                                 <li><a href="checkout.html">Checkout</a></li>
                                 <li><a href="login.html">Sign in</a></li>
                             </ul>
@@ -99,8 +99,8 @@ function Header(){
                                             <h5>Total <span>£12.00</span></h5>
                                         </div>
                                         <div className="cart-bottom">
-                                            <a className="view-cart" href="cart.html">view cart</a>
-                                            <a href="checkout.html">Check out</a>
+                                            <Link to='/cart'className="view-cart">view cart</Link>
+                                            <Link >Check out</Link>
                                         </div>
                                     </div>
                                 </li>
@@ -118,7 +118,7 @@ function Header(){
                         <div className="menu-area">
                             <nav>
                                 <ul>
-                                    <li className="active"><Link to='/'>Home<i className="fa fa-angle-down"></i></Link>
+                                    <li className="active"><Link to='/'>Home</Link>
                                        
                                     </li>
                                     <li><a href="product-details.html">Book<i className="fa fa-angle-down"></i></a>
@@ -157,7 +157,7 @@ function Header(){
                                             </span>
                                         </div>
                                     </li>
-                                    <li><a href="product-details.html">Audio books<i className="fa fa-angle-down"></i></a>
+                                    <li><a href="product-details.html">Categories<i className="fa fa-angle-down"></i></a>
                                         <div className="mega-menu">
                                             <span>
                                                 <a href="#" className="title">Shirts</a>
@@ -189,7 +189,7 @@ function Header(){
                                             </span>
                                         </div>
                                     </li>
-                                    <li><a href="product-details.html">children’s books<i className="fa fa-angle-down"></i></a>
+                                    <li><a href="product-details.html">Free Books<i className="fa fa-angle-down"></i></a>
                                         <div className="mega-menu mega-menu-2">
                                             <span>
                                                 <a href="#" className="title">Tops</a>
@@ -222,33 +222,14 @@ function Header(){
                                             </ul>
                                         </div>
                                     </li>
-                                    <li><a href="#">pages<i className="fa fa-angle-down"></i></a>
-                                        <div className="sub-menu sub-menu-2">
-                                            <ul>
-                                                <li><a href="shop.html">shop</a></li>
-                                                <li><a href="shop-list.html">shop list view</a></li>
-                                                <li><a href="product-details.html">product-details</a></li>
-                                                <li><a href="product-details-affiliate.html">product-affiliate</a></li>
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="blog-details.html">blog-details</a></li>
-                                                <li><a href="contact.html">contact</a></li>
-                                                <li><a href="about.html">about</a></li>
-                                                <li><a href="login.html">login</a></li>
-                                                <li><a href="register.html">register</a></li>
-                                                <li><a href="my-account.html">my-account</a></li>
-                                                <li><a href="cart.html">cart</a></li>
-                                                <li><a href="compare.html">compare</a></li>
-                                                <li><a href="checkout.html">checkout</a></li>
-                                                <li><a href="wishlist.html">wishlist</a></li>
-                                                <li><a href="404.html">404 Page</a></li>
-                                            </ul>
-                                        </div>
+                                    <li><Link to='/donate'>Donate Books<i className="fa fa-angle-down"></i></Link>
+                                      
                                     </li>
                                 </ul>
                             </nav>
                         </div>
                         <div className="safe-area">
-                            <a href="product-details.html">sales off</a>
+                            <a href="product-details.html">sell Books</a>
                         </div>
                     </div>
                 </div>
@@ -263,15 +244,7 @@ function Header(){
                             <nav id="mobile-menu-active">
                                 <ul id="nav">
                                     <li><a href="index.html">Home</a>
-                                        <ul>
-                                            <li><a href="index.html">Home-1</a></li>
-                                            <li><a href="index-2.html">Home-2</a></li>
-                                            <li><a href="index-3.html">Home-3</a></li>
-                                            <li><a href="index-4.html">Home-4</a></li>
-                                            <li><a href="index-5.html">Home-5</a></li>
-                                            <li><a href="index-6.html">Home-6</a></li>
-                                            <li><a href="index-7.html">Home-7</a></li>
-                                        </ul>
+                                       
                                     </li>
                                     <li><a href="product-details.html">Book</a>
                                         <ul>
@@ -341,22 +314,18 @@ function Header(){
                                     </li>
                                     <li><a href="product-details.html">Page</a>
                                         <ul>
-                                            <li><a href="shop.html">shop</a></li>
-                                            <li><a href="shop-list.html">shop list view</a></li>
-                                            <li><a href="product-details.html">product-details</a></li>
-                                            <li><a href="product-details-affiliate.html">product-affiliate</a></li>
-                                            <li><a href="blog.html">blog</a></li>
-                                            <li><a href="blog-details.html">blog-details</a></li>
-                                            <li><a href="contact.html">contact</a></li>
-                                            <li><a href="about.html">about</a></li>
-                                            <li><a href="login.html">login</a></li>
-                                            <li><a href="register.html">register</a></li>
-                                            <li><a href="my-account.html">my-account</a></li>
-                                            <li><a href="cart.html">cart</a></li>
-                                            <li><a href="compare.html">compare</a></li>
-                                            <li><a href="checkout.html">checkout</a></li>
-                                            <li><a href="wishlist.html">wishlist</a></li>
-                                            <li><a href="404.html">404 Page</a></li>
+                                        <li><Link to="shop.html">shop</Link></li>
+                                                <li><Link to="shop-list.html">shop list view</Link></li>
+                                                <li><Link to="product-details.html">product-details</Link></li>
+                                                <li><Link to="product-details-affiliate.html">product-affiliate</Link></li>
+                                                <li><Link to="contact.html">contact</Link></li>
+                                                <li><Link to="about.html">about</Link></li>
+                                                <li><Link to="/signin">SignIn</Link></li>
+                                                <li><Link to="/signup">SignUp</Link></li>
+                                                <li><Link to="/cart">cart</Link></li>
+                                                <li><Link to="/checkout">checkout</Link></li>
+                                                <li><Link to="wishlist.html">wishlist</Link></li>
+                                                <li><Link to="404.html">404 Page</Link></li>
                                         </ul>
                                     </li>
                                 </ul>

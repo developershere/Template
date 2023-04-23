@@ -7,7 +7,7 @@ function SignUp(){
                     <div className="breadcrumbs-menu">
                         <ul>
                             <li><a href="#">Home</a></li>
-                            <li><a href="#" className="active">login</a></li>
+                            <li><a href="#" className="active">SignUp</a></li>
                         </ul>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ function SignUp(){
                                         </label>
                                     </div>
                                     <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                                        <button  type="submit" className="btn btn-primary btn-lg btn">
+                                        <button  type="submit" className="btn btn-dark btn-lg btn btn1">
                                             Register
                                         </button>
                                     </div>
@@ -76,7 +76,7 @@ function SignUp(){
                             </div>
                             <div className="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
                                 <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                                    src="https://img.freepik.com/free-vector/sign-concept-illustration_114360-125.jpg?size=626&ext=jpg&ga=GA1.2.894235109.1681109678&semt=ais"
                                     className="img-fluid"
                                     alt="Sample image"
                                 />
