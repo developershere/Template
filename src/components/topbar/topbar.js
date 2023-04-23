@@ -46,9 +46,7 @@ function Topbar() {
         <div className="header-mid-area ptb-40">
             <div className="container">
                 <div className="row">
-                    <div style={{ width: "150px", height: "70px", border: "solid 2px red" }}>
-                        <img src="../topbar/logo/logo.png"></img>
-                    </div>
+                  
                     <div className="col-lg-3 col-md-5 col-12">
 
                         <div className="header-search">

@@ -1,1655 +1,459 @@
-function TopInteresting(){
-    return<>
-    <div className="product-area pt-95 xs-mb ">
-  <div className="container ">
-    <div className="row ">
-      <div className="col-lg-12 ">
-        <div className="section-title text-center mb-50 ">
-          <h2>Top interesting</h2>
-          <p>
-            Browse the collection of our best selling and top interresting
-            products. <br /> ll definitely find what you are looking for..
-          </p>
+function TopInteresting() {
+  return <>
+    <section className="our-project" id="projectid">
+      <div className="container heading-design">
+        <div data-aos="fade-up" data-aos-duration="400">
+          <h1><span>Top Interesting</span></h1>
+          <p class="sub-heading container">  <p>Browse the collection of our best selling and top interresting products. <br /> ll definitely find what you are looking for..</p></p>
+        </div>
+        <div className="container" data-aos="fade-up" data-aos-duration={400}>
+          <nav>
+            <div
+              className="nav nav-tabs row"
+              style={{ paddingLeft: "18%" }}
+              id="nav-tab"
+              role="tablist"
+            >
+              <button
+                className=" nav-link active col-2"
+                id="nav-all-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-all"
+                type="button"
+                role="tab"
+                aria-controls="nav-all"
+                aria-selected="true"
+              >
+                All
+              </button>
+              <button
+                className=" nav-link col-2"
+                id="nav-Remodeling-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-Remodeling"
+                type="button"
+                role="tab"
+                aria-controls="nav-Remodeling"
+                aria-selected="false"
+              >
+                Remodeling
+              </button>
+              <button
+                className="nav-link col-2"
+                id="nav-Construction-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-Construction"
+                type="button"
+                role="tab"
+                aria-controls="nav-Construction"
+                aria-selected="false"
+              >
+                Construction
+              </button>
+              <button
+                className="nav-link col-2"
+                id="nav-Repair-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-Repair"
+                type="button"
+                role="tab"
+                aria-controls="nav-Repair"
+                aria-selected="false"
+              >
+                Repairs
+              </button>
+              <button
+                className="nav-link col-2"
+                id="nav-Design-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-Design"
+                type="button"
+                role="tab"
+                aria-controls="nav-Design"
+                aria-selected="false"
+              >
+                {" "}
+                Design
+              </button>
+            </div>
+          </nav>
+        </div>
+        <div
+          className="tab-content "
+          id="nav-tabContent"
+          data-aos="fade-up"
+          data-aos-duration={500}
+        >
+          <div
+            className="tab-pane fade show active container"
+            id="nav-all"
+            role="tabpanel"
+            aria-labelledby="nav-all-tab"
+            tabIndex={0}
+          >
+            <div className="row">
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/remodeling-1.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">Remodeling 1</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/construction-1.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">construction 1</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/repairs-1.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">repairs-1</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/design-1.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">design-1</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/remodeling-2.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">remodeling-2</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/construction-2.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">construction-2</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/repairs-2.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">repairs-2</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/design-2.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">design-2</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/remodeling-3.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">remodeling-3</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/construction-3.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">construction-3</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/repairs-3.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">repairs-3</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/design-3.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">design-3</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="tab-pane fade container"
+            id="nav-Remodeling"
+            role="tabpanel"
+            aria-labelledby="nav-remodeling-tab"
+            tabIndex={0}
+          >
+            <div className="row">
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/remodeling-3.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">Remodeling 1</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/remodeling-2.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">Remodeling 1</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/remodeling-1.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">Remodeling 1</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="tab-pane fade conainer"
+            id="nav-Construction"
+            role="tabpanel"
+            aria-labelledby="nav-Construction-tab"
+            tabIndex={0}
+          >
+            <div className="row">
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/construction-1.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">construction-1</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/construction-2.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">construction </div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/construction-3.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">construction 3</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="tab-pane fade container"
+            id="nav-Repair"
+            role="tabpanel"
+            aria-labelledby="nav-Repair-tab"
+            tabIndex={0}
+          >
+            <div className="row">
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/repairs-1.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">repairs 1</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/repairs-2.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">repairs 2</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/repairs-3.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">repairs 3</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="tab-pane fade container"
+            id="nav-Design"
+            role="tabpanel"
+            aria-labelledby="nav-Design-tab"
+            tabIndex={0}
+          >
+            <div className="row">
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/design-1.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">design 1</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/design-2.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">design 2</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+              <div className="all-img col-md-4 p-3">
+                <div className="inner_box">
+                  <img src="	https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/projects/design-3.jpg" />
+                </div>
+                <div className="inner_box1">
+                  <div className="bg-warning p-1">design 3 1</div>
+                  <div className="icon">
+                    <i className="bi bi-zoom-in" />
+                    <i className="bi bi-link-45deg" />
+                  </div>
+                  <h5>Lorem ipsum, dolor sit amet consectetur</h5>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="col-lg-12 ">
-        {/* tab-menu-start */}
-        <div className="tab-menu mb-40 text-center ">
-          <ul className="nav justify-content-center ">
-            <li>
-              <a className="active " href="#Audiobooks " data-bs-toggle="tab ">
-                New Arrival{" "}
-              </a>
-            </li>
-            <li>
-              <a href="#books " data-bs-toggle="tab ">
-                OnSale
-              </a>
-            </li>
-            <li>
-              <a href="#bussiness " data-bs-toggle="tab ">
-                Featured Products
-              </a>
-            </li>
-          </ul>
-        </div>
-        {/* tab-menu-end */}
-      </div>
-    </div>
-    {/* tab-area-start */}
-    <div className="tab-content ">
-      <div className="tab-pane fade show active " id="Audiobooks ">
-        <div className="tab-active owl-carousel ">
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img src="img/product/1.jpg " alt="book "  className="primary " />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="sale ">new</span>
-                  </li>
-                  <li>
-                    <span className="discount-percentage ">-5%</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Joust Duffle Bag</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$60.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/3.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="sale ">new</span> <br />
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Chaz Kangeroo Hoodie</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$52.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/5.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="sale ">new</span> <br />
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Set of Sprite Yoga Straps</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$34.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/7.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="sale ">new</span> <br />
-                  </li>
-                  <li>
-                    <span className="discount-percentage ">-5%</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Strive Shoulder Pack</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$30.00</li>
-                  <li className="old-price ">$32.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/9.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="discount-percentage ">-5%</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Wayfarer Messenger Bag</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$35.00</li>
-                  <li className="old-price ">40.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/11.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="sale ">new</span> <br />
-                  </li>
-                  <li>
-                    <span className="discount-percentage ">-5%</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Impulse Duffle</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$74.00</li>
-                  <li className="old-price ">78.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-        </div>
-      </div>
-      <div className="tab-pane fade " id="books ">
-        <div className="tab-active owl-carousel ">
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/5.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="sale ">new</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Strive Shoulder Pack</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$30.00</li>
-                  <li className="old-price ">$32.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/7.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="sale ">new</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Strive Shoulder Pack</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$30.00</li>
-                  <li className="old-price ">$32.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/1.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="sale ">new</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Joust Duffle Bag</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$60.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/3.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="sale ">new</span> <br />
-                  </li>
-                  <li>
-                    <span className="discount-percentage ">-5%</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Chaz Kangeroo Hoodie</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$52.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/9.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="sale ">new</span> <br />
-                  </li>
-                  <li>
-                    <span className="discount-percentage ">-5%</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Wayfarer Messenger Bag</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$35.00</li>
-                  <li className="old-price ">40.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/11.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="discount-percentage ">-5%</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Impulse Duffle</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$74.00</li>
-                  <li className="old-price ">78.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-        </div>
-      </div>
-      <div className="tab-pane fade " id="bussiness ">
-        <div className="tab-active owl-carousel ">
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/9.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="sale ">new</span> <br />
-                  </li>
-                  <li>
-                    <span className="discount-percentage ">-5%</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Wayfarer Messenger Bag</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$35.00</li>
-                  <li className="old-price ">40.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/11.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="sale ">new</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Impulse Duffle</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$74.00</li>
-                  <li className="old-price ">78.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/1.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="sale ">new</span> <br />
-                  </li>
-                  <li>
-                    <span className="discount-percentage ">-5%</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Joust Duffle Bag</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$60.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/3.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="sale ">new</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Chaz Kangeroo Hoodie</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$52.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/5.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="sale ">new</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Set of Sprite Yoga Straps</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$34.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-          {/* single-product-start */}
-          <div className="product-wrapper ">
-            <div className="product-img ">
-              <a href="# ">
-                <img
-                  src="img/product/7.jpg "
-                  alt="book "
-                  className="primary "
-                />
-              </a>
-              <div className="quick-view ">
-                <a
-                  className="action-view "
-                  href="# "
-                  data-bs-target="#productModal "
-                  data-bs-toggle="modal "
-                  title="Quick View "
-                >
-                  <i className="fa fa-search-plus " />
-                </a>
-              </div>
-              <div className="product-flag ">
-                <ul>
-                  <li>
-                    <span className="discount-percentage ">-5%</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-details text-center ">
-              <div className="product-rating ">
-                <ul>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="# ">
-                      <i className="fa fa-star " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <h4>
-                <a href="# ">Strive Shoulder Pack</a>
-              </h4>
-              <div className="product-price ">
-                <ul>
-                  <li>$30.00</li>
-                  <li className="old-price ">$32.00</li>
-                </ul>
-              </div>
-            </div>
-            <div className="product-link ">
-              <div className="product-button ">
-                <a href="# " title="Add to cart ">
-                  <i className="fa fa-shopping-cart " />
-                  Add to cart
-                </a>
-              </div>
-              <div className="add-to-link ">
-                <ul>
-                  <li>
-                    <a href="product-details.html " title="Details ">
-                      <i className="fa fa-external-link " />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* single-product-end */}
-        </div>
-      </div>
-    </div>
-    {/* tab-area-end */}
-  </div>
-</div>
+    </section>
 
 
-    
-    </>
+
+
+  </>
 }
 
 export default TopInteresting;
